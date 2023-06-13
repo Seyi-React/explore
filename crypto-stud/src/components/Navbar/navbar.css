@@ -1,0 +1,24 @@
+.desktop-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:2rem 5rem;
+    background-color: black;
+}
+.desktop-h1  h2{
+  color: #00df9a;
+  font-family: 'Cantarell';
+  letter-spacing: 1px;
+   font-size: 25px;
+}
+.desktop-nav a {
+    margin: 1rem 10px;
+    font-family: 'Cantarell', sans-serif;
+    text-decoration: none;
+    font-size: 16px;
+    color:white;
+}
+ a:hover {
+    font-size: 14px;
+    opacity: 0.8;
+}
