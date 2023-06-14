@@ -1,0 +1,68 @@
+.hero {
+  text-align: center;
+  background-color: black;
+}
+.hero-cont {
+  padding: 5rem;
+}
+.grow {
+  text-transform: uppercase;
+  font-size: 45px;
+  font-family: "Cantarell", sans-serif;
+  padding-bottom: 10px;
+  color: #00df9a;
+}
+.data {
+  font-size: 15px;
+  color: white;
+  text-transform: capitalize;
+  font-family: "Cantarell", sans-serif;
+  font-weight: 200;
+  padding: 5px;
+}
+.flex {
+  font-size: 18px;
+  color: white;
+  font-family: "Cantarell", sans-serif;
+  text-transform: capitalize;
+}
+.hero-cont button {
+    border: none;
+    background-color: #00df9a;
+    width: 150px;
+    height: 32px;
+    font-family: "Cantarell", sans-serif;
+    margin-top: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+}
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.bouncing-text {
+  animation: bounce 1s infinite; /* Apply the animation */
+}
+@media (max-width: 769px) {
+  .grow {
+    width: fit-content;
+    font-size: 28px;
+  }
+  .flex {
+    font-size: 17px;
+    padding: 5px;
+  }
+  .hero-cont button {
+    width: 130px;
+  }
+}

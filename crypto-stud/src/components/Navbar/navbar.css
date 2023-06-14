@@ -1,24 +1,57 @@
 .desktop-navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding:2rem 5rem;
-    background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 5rem;
+  background-color: black;
 }
-.desktop-h1  h2{
+
+.desktop-h1 h2 {
   color: #00df9a;
-  font-family: 'Cantarell';
+  font-family: "Cantarell";
   letter-spacing: 1px;
-   font-size: 25px;
+  font-size: 20px;
 }
 .desktop-nav a {
-    margin: 1rem 10px;
-    font-family: 'Cantarell', sans-serif;
+  margin: 1rem 10px;
+  font-family: "Cantarell", sans-serif;
+  text-decoration: none;
+  font-size: 15px;
+  color: white;
+}
+.desktop-nav a:hover {
+}
+.menu {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .desktop-nav {
+    display: none;
+  }
+  .menu {
+    display: unset;
+  }
+  .desktop-navbar {
+    padding: 2rem 2rem;
+  }
+  .side-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: black;
+    width: 60%;
+    height: 100%;
+    transition: left 0.3s ease-in-out;
+    z-index: 3;
+  }
+  .side-nav a {
+    display: block;
+    font-family: "Cantarell", sans-serif;
     text-decoration: none;
     font-size: 16px;
-    color:white;
-}
- a:hover {
-    font-size: 14px;
-    opacity: 0.8;
+    color: white;
+    margin-left: 1rem;
+    margin-top: 2rem;
+  }
 }

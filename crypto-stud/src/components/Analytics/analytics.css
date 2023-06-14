@@ -1,0 +1,51 @@
+.data-analytic {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem 1rem;
+    font-family:'Cantarell', sans-serif ;
+    align-items: center;
+    margin-top: 3rem;
+}
+.dash p {
+    width: 31.25em;
+    font-size: 14px;
+}
+.dash h1 {
+    color: #00df9a;
+}
+.dash button {
+    border: none;
+    background-color: #00df9a;
+    width: 150px;
+    height: 32px;
+    font-family: "Cantarell", sans-serif;
+    margin-top: 10px;
+    font-size: 15px;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: pointer;
+}
+@media (max-width:550px){
+    .data-analytic {
+        justify-content: center;
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .laptop {
+        width: 150px;
+        height: 150px;
+    }
+    .dash {
+        text-align: center;
+    }
+    .dash h1 {
+        font-size: 26px;
+        width: 24rem;
+    }
+    .dash p {
+        width: fit-content;
+        font-size: 12px;
+        line-height: 27px;
+        padding: 0 20px;
+    }
+}
