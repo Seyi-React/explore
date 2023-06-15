@@ -19,16 +19,16 @@ const Navbar = () => {
           </div>
           <div className="desktop-nav">
             <Link to="/">
-              <a href="#">Home</a>
+              <a href="">Home</a>
             </Link>
             <Link to="/resource">
-              <a href="#">Resource</a>
+              <a href="">Resource</a>
             </Link>
             <Link to="/about">
-              <a href="#">About</a>
+              <a href="">About</a>
             </Link>
             <Link to="/contact">
-              <a href="#"> Contact</a>
+              <a href=""> Contact</a>
             </Link>
           </div>
           {/* Mobile view */}
@@ -42,16 +42,16 @@ const Navbar = () => {
           {nav && (
             <div className="side-nav">
               <Link to="/">
-                <a href="#">Home</a>
+                <a href="">Home</a>
               </Link>
               <Link to="/resource">
-                <a href="#">Resource</a>
+                <a href="">Resource</a>
               </Link>
               <Link to="/about">
-                <a href="#">About</a>
+                <a href="">About</a>
               </Link>
               <Link to="/contact">
-                <a href="#"> Contact</a>
+                <a href=""> Contact</a>
               </Link>
             </div>
           )}

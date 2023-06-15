@@ -20,6 +20,7 @@
   color: white;
 }
 .desktop-nav a:hover {
+  opacity: 0.8;
 }
 .menu {
   display: none;
@@ -55,3 +56,5 @@
     margin-top: 2rem;
   }
 }
+
+

@@ -1,0 +1,38 @@
+.footer {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5.5rem;
+   padding: 2rem 0;
+    font-family: 'cantarell', san-serif;
+    color: white;
+    
+}
+.footer-container {
+    background-color: black;
+}
+.footer-1 p {
+    width: 31.25rem;
+    font-size: 13px;
+    padding: 10px 0;
+}
+.footer-1 h3 {
+    color: #00df9a;
+}
+.foot-2 p,.foot-3 p,.foot-4  p {
+    font-size: 12px;
+    padding: 7px 0;
+}
+@media (max-width:550px) {
+    .footer {
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        gap: 2rem;
+    }
+    .footer-1 p {
+        width: fit-content;
+        font-size: 12px;
+        padding: 10px 25px;
+    }
+}

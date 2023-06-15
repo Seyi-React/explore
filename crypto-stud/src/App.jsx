@@ -2,7 +2,9 @@ import React from "react"
 import Navbar from "./components/Navbar/Navbar"
 import Hero from "./components/Hero/Hero"
 import Analytics from "./components/Analytics/Analytics"
-// import {Route,Routes} from 'react-router-dom'
+import Card from "./components/Card/Card"
+import Newslletter from "./components/Newsletter/Newslletter"
+import Footer from "./components/Footer/Footer"
 
 
 const  App = () => {
@@ -13,6 +15,9 @@ const  App = () => {
      <Navbar/>
        <Hero />
        <Analytics/>
+       <Newslletter/>
+       <Card/>
+       <Footer/>
     </>
   )
 }
